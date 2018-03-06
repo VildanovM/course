@@ -1,0 +1,22 @@
+.first {
+	background-color: lightblue
+	color: #fff;
+	text-align: center;
+}
+.img_style {
+	text-align: center;
+}
+
+.first_block {
+	margin-bottom: 40pt;
+	border: 1pt solid red;
+	background-color: grey;
+	padding: 20pt;
+}
+.second_block {
+	margin-bottom: 50pt;
+	border: 1pt solid black;
+	padding: 20pt;
+/*	width: 100%;
+	height: 90% */
+}
