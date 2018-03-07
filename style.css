@@ -3,14 +3,29 @@
 	color: #fff;
 	text-align: center;
 }
+
 .img_style {
-	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 
+.button_style {
+	padding: 0pt;
+	right: 0pt;
+	top: 50pt;
+	width: 50pt;
+	height: 50pt;
+	position: fixed;
+}
+
+.text {
+	width: 800pt;
+	text-align: justify;
+}
 .first_block {
 	margin-bottom: 40pt;
 	border: 1pt solid red;
-	background-color: grey;
+	background-color: green;
 	padding: 20pt;
 }
 .second_block {
