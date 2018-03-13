@@ -196,3 +196,161 @@ footer {
 .footer-links a:last-child {
   margin-right: 0;
 }
+
+@media(min-width: 768px) and (max-width: 990px) {
+
+.main-item-sm-btn {
+    width: 100%;
+    border: 1px solid #3d3d3d;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #3d3d3d;
+    font-size: 18px;
+  }
+
+  .main-item-sm-btn-dark {
+  background-color: #3d3d3d;
+  border: solid 1px #979797;
+  color: #b9b9b9;
+}
+
+  .col-sm-1 {
+    width: 8.333333%;
+  }
+
+  .col-sm-2 {
+    width: 16.666667%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: 33.333333%;
+  }
+
+  .col-sm-5 {
+    width: 41.666667%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    width: 58.333333%;
+  }
+
+  .col-sm-8 {
+    width: 66.666667%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    width: 83.333333%;
+  }
+
+  .col-sm-11 {
+    width: 91.666667%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 768px) {
+
+   .main-item-xc-btn {
+    width: 100%;
+    border: 1px solid #3d3d3d;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #3d3d3d;
+    font-size: 14px;
+  }
+
+  .main-item-xc-btn-dark {
+  background-color: #3d3d3d;
+  border: solid 1px #979797;
+  color: #b9b9b9;
+}
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header nav a {
+    margin-bottom: 10px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links a {
+    margin-bottom: 10px;
+  }
+
+   .col-xs-1 {
+    width: 8.333333%;
+  }
+
+  .col-xs-2 {
+    width: 16.666667%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.333333%;
+  }
+
+  .col-xs-5 {
+    width: 41.666667%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.333333%;
+  }
+
+  .col-xs-8 {
+    width: 66.666667%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.333333%;
+  }
+
+  .col-xs-11 {
+    width: 91.666667%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 990px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+
