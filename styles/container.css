@@ -150,7 +150,16 @@ body {
   border: 1px solid #979797;
   padding: 22px;
   margin-bottom: 20px;
+  transition: 0.3s;
 }
+
+.card:hover {
+  box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+  transition: 0.3s;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
 .card-img {
   width: 138px;
   height: 200px;
