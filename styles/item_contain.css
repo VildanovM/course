@@ -4,6 +4,7 @@
 }
 
 .row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap; 
   margin-top: 76px;
@@ -120,7 +121,6 @@ body {
 .main-item-container {
   display: flex;
   flex-direction: column;
-  align-items: center ;
 }
 
 .main-item-right {
@@ -187,7 +187,7 @@ body {
 }
 
 .main-item-btn {
-   width: 283.7px;
+   width: 100%;
   border: 1px solid #3d3d3d;
   padding: 15px 0;
   text-align: center;
@@ -201,59 +201,38 @@ body {
 }
 
 .vk {
-   width: 220px;
-   height: 63px;
-   padding-top: 22px;
-   padding-bottom: 22px;
-   padding-left: 96px;
-   padding-right: 90px;
-  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  width: 100%;
   background-color: #5f81a9;
   border: 1px solid #5f81a9;
   color: #3d3d3d;
-  font-size: 20px;
 }
 
 .fb {
-   width: 220px;
-   height: 63px;
-   padding-top: 18px;
-   padding-bottom: 18px;
-   padding-left: 104px;
-   padding-right: 103px;
-  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
   background-color: #3a589c;
   border: 1px solid #3a589c;
   color: #3d3d3d;
-  font-size: 20px;
 }
 
 .tg {
-   width: 220px;
-   height: 63px;
-   padding-top: 20px;
-   padding-bottom: 18px;
-   padding-left: 100px;
-   padding-right: 95px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  width: 100%;
   background-color: #419fd9;
   border: 1px solid #419fd9;
-  color: #3d3d3d;
-  font-size: 20px;
-}
+  color: #3d3d3d;}
 
 .md {
-   width: 220px;
-   height: 63px;
-   padding-top: 22px;
-   padding-bottom: 22px;
-   padding-left: 100px;
-   padding-right: 94px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   background-color: #00e272;
   border: 1px solid #00e272;
   color: #3d3d3d;
-  font-size: 20px;
 }
 
 .vk:hover {
