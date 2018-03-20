@@ -8,6 +8,7 @@
   display: flex;
   flex-wrap: wrap; 
   margin-top: 76px;
+  margin-bottom: 50px;
 }
 
 .col-1 {
@@ -112,6 +113,7 @@ body {
   margin-bottom: 20px;
   transition: 0.3s;
 }
+
 .little-contain:hover {
   box-shadow: 0 22px 43px rgba(0,0,0,0.15);
   transition: 0.3s;
@@ -142,26 +144,35 @@ body {
   
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 
 }
 
 .main-item-name-last {
   font-size: 24px;
   font-weight: bold;
+}
+
+.main-item-contains {
+  font-size: 18px;
   margin-bottom: 1px;
+}
+
+.main-item-last {
+  font-size: 18px;
+  margin-bottom: 56px;
 }
 
 .card-container {
   width: 379px;
   height: 96px;
   margin-left: 88px;
+  justify-content: center;
 }
 .card-description {
   line-height: normal;
   color: #000000;
-  margin-top: -20px;
   margin-bottom: 56px;
   font-size: 18px;
-  text-align: left;
   width: 379px;
   height: 96px;
 
@@ -172,10 +183,8 @@ body {
 }
 
 .card-last  {
-  line-height: normal;
   color: #000000;
   font-size: 18px;
-  text-align: left;
 }
 
 
@@ -190,7 +199,6 @@ body {
    width: 100%;
   border: 1px solid #3d3d3d;
   padding: 15px 0;
-  text-align: center;
   background-color: #f2f2f2;
   color: #3d3d3d;
   font-size: 20px;
@@ -295,10 +303,17 @@ footer {
   color: #000000;
   margin-top: 0px;
   margin-bottom: 56px;
-  text-align: center;
-  width: 90%;
-  height: 90%;
 
+}
+
+ .main-item-btn {
+   width: 100%;
+  border: 1px solid #3d3d3d;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #3d3d3d;
+  font-size: 15px;
 }
 
   .align {
@@ -321,6 +336,10 @@ footer {
     justify-content: center;
   }
 
+  .md {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
 
  .col-sm-1 {
     width: 8.333333%;
@@ -370,14 +389,21 @@ footer {
     width: 100%;
   }
 
+  .text-align {
+  text-align: center;
+  width: 100%;
 }
+
+}
+
   @media(max-width: 768px) {
+
 
     .main-item-btn {
    width: 100%;
   border: 1px solid #3d3d3d;
   padding: 15px 0;
-  text-align: center;
+  padding-bottom: 20x;
   background-color: #f2f2f2;
   color: #3d3d3d;
   font-size: 15px;
@@ -386,13 +412,8 @@ footer {
   .card-description {
   line-height: normal;
   color: #000000;
-  margin-top: 0px;
   margin-bottom: 56px;
-  margin-left: 40px;
-  font-size: 14px;
-  text-align: center;
-  width: 60%;
-  height: 60%;
+  width: 100%;
 
 }
 
@@ -400,17 +421,15 @@ footer {
   line-height: normal;
   color: #000000;
   font-size: 14px;
-  text-align: center;
    width: 60%;
   height: 60%;
-  margin-left: 40px;
 }
 
   .main-item-name-last {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 1px;
-  margin-left: 40px;
+
 }
 
 .pop-items{
@@ -423,7 +442,6 @@ footer {
   width: 183px;
   height: 284px;
   margin-bottom: 36px;
-  margin-left: 40px;
 }
 
     header nav {
@@ -509,13 +527,20 @@ footer {
     margin-bottom: 10px;
   }
 
+  .md {
+    margin-bottom: 10px;
+  }
+
 .main-item-name{
   
   font-size: 18px;
   font-weight: bold;
-  margin-left: 40px;
 }
 
+.text-align {
+  text-align: center;
+  width: 100%;
+}
 }
 
 @media(max-width: 990px) {
